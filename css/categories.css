@@ -18,7 +18,8 @@
 .categories_list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 85px;
+    column-gap: 87px;
+    row-gap: 24px;
 }
 
 .categories_list_item {
@@ -43,5 +44,28 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   text-align: center;
-  margin-bottom: 24x;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+      max-width: 550px;
+    }
+
+    .categories > div > h2 {
+        margin-bottom: 31px;
+    }
+
+    .categories_list {
+        column-gap: 15px;
+    }
+
+    .categories_list_item > img {
+        max-width: 152px;
+        margin-bottom: 8px;
+    }
+    
+    .categories_list_item > p {
+        font-size: 14px;
+    }
 }
