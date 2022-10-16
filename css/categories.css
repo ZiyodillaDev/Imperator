@@ -1,1 +1,47 @@
 @import "main.css";
+
+
+.categories > div > h2 {
+  max-width: 198px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  margin: auto;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.categories_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 85px;
+}
+
+.categories_list_item {
+  list-style: none;
+}
+
+.categories_list_item > img {
+  width: 264px;
+  background: url(Rectangle_4-removebg-preview.png), #eeeeee;
+  border-radius: 8px;
+  margin-bottom: 26px;
+}
+
+.categories_list_item > p {
+  max-width: 191px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 24x;
+}
