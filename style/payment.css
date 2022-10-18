@@ -1,1 +1,171 @@
 @import "main.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,500&family=Open+Sans:ital,wght@0,400;1,700&family=Poppins:wght@700&display=swap");
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-color: #ffc000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+main {
+  background-color: #e5e5e5;
+}
+
+.Оплата {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  padding-top: 50px;
+  color: #000000;
+}
+
+.two-content {
+  margin-top: 60px;
+  display: flex;
+  padding-left: 60px;
+}
+
+.card_img {
+  display: flex 50%;
+}
+
+.information {
+  display: flex 50%;
+  margin-left: 15%;
+}
+
+.people-location {
+  border: none;
+  background-color: #f1f1f1;
+  width: 300px;
+  height: 30px;
+}
+
+.submit {
+  width: 300px;
+  height: 40px;
+  background-color: #ffc000;
+  border: none;
+  border-radius: 5px;
+}
+
+.mobil-version {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  .Оплата > h1 {
+    font-size: 35px;
+  }
+
+  .two-content {
+    flex-direction: column;
+  }
+
+  .card_img {
+    margin-left: 0px;
+    display: flex none;
+  }
+
+  .people-location {
+    width: 280px;
+  }
+
+  .submit {
+    width: 280px;
+  }
+
+  @media (max-width: 550px) {
+    .card_img {
+      display: none;
+    }
+
+    .people-location {
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-left: -80px;
+    }
+
+    .submit {
+      margin-left: -80px;
+    }
+
+    .footer {
+      display: none;
+    }
+
+    .mobil-version {
+      display: block;
+    }
+
+    .high_fidelity {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 20px;
+      font-feature-settings: "pnum" on, "lnum" on;
+      color: #000000;
+    }
+
+    .footerr {
+      display: flex;
+      margin-top: 20px;
+      gap: 30px;
+    }
+
+    .footer-nav > p {
+      padding: 10px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 34px;
+      font-feature-settings: "pnum" on, "lnum" on;
+      color: #000000;
+    }
+
+    .img-and-text {
+      display: flex;
+    }
+
+    .img-and-text > p {
+      padding-left: 10px;
+      vertical-align: middle;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #000000;
+      
+    }
+  }
+}

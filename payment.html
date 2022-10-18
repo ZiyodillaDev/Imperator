@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,188 @@
   <title>Payment</title>
   <link rel="stylesheet" href="./style/payment.css">
 </head>
+
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <div class="topheader">
+      <div class="container">
+        <a class="top_a" href="#">Ru</a>
+        <a class="top_a" href="#">Uzb</a>
+      </div>
+    </div>
+    <div class="header container">
+      <div class="left">
+        <a href="#">MILANDI</a>
+      </div>
+      <nav>
+        <ul class="nav_lists">
+          <li class="nav_lists_item">
+            <a class="nav_lists_link" href="./index.html">Главная</a>
+          </li>
+          <li class="nav_lists_item">
+            <a class="nav_lists_link" href="./about.html">O нас </a>
+          </li>
+          <li class="nav_lists_item">
+            <a class="nav_lists_link" href="./categories.html">Категории</a>
+          </li>
+          <li class="nav_lists_item">
+            <a class="nav_lists_link" href="#">Сотрудничество</a>
+          </li>
+        </ul>
+        <a class="btn_humburger" href="#"><img src="./images/hamburger_icon.svg" alt="afsa" /></a>
+      </nav>
+      <div class="button">
+        <a class="buttons first_button" href="#">Войти</a>
+        <a class="buttons second_button" href="#">Зарегистрироваться</a>
+      </div>
+      <a class="shop_btn" href="#"><img src="./images/shop_btn_logo.png" alt="shop" /></a>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="Оплата">
+        <h1>
+          Оплата
+        </h1>
+      </div>
+      <div class="two-content">
+        <div class="card_img">
+          <img src="./images/card.png" alt="hard card">
+        </div>
+        <div class="information">
+          <form action="https://echo.htmlacademy.ru/" method="post">
+            <label for="">
+              <br />
+              <input class="people-location name_info" placeholder="Имя на карте" required type="text" id="name"
+                name="first_name" list="names" />
+            </label>
+            <datalist id="names">
+              <option value="Jasur">Jasur</option>
+              <option value="Begzod">Begzod</option>
+              <option value="Saydolim">Saydolim</option>
+              <option value="Abu Bakr">Abu Bakr</option>
+            </datalist>
+            <br>
+            <br>
+            <label for=""></label>
+            <input class="people-location tel_namber" placeholder="Номер карты" type="card" name="card-namber"
+              title="Mos emas" min="15" max="17" />
+            <br>
+            <br>
+            <label for="">Cрок хранения
+              <br>
+              <input class="people-location tel_namber" placeholder ="MM/YY" type="card" name="card-date" min="4"
+                max="4" />
+            </label>
+            <br>
+            <br>
+            <a href="">
+              <button class="submit">
+                Перейти к оплате
+              </button>
+            </a>
+            <br>
+            <br>
+            <br>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="left">
+          <h3>про imperia</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean dignissim sit cursus dictumst
+            adipiscing nunc.</p>
+          <a href="#">
+            <img class="flogo" src="./images/flogo.png" alt="FLogo">
+          </a>
+        </div>
+
+
+        <div class="right">
+          <div class="right1">
+            <h3>контакты</h3>
+            <a href="tel:+998 90 958 78 87">+998 90 958 78 87</a>
+            <a href="#">support@fonon.uz</a>
+            <h3>рабочее время</h3>
+            <p>По будням 9:00 to 18:00</p>
+            <p>B выходные 11:00 to 18:00</p>
+          </div>
+          <div class="right2">
+            <h3>Меню</h3>
+            <a href="./index.html">Главная</a>
+            <a href="./about.html">O нас</a>
+            <a href="./categories.html">Категории</a>
+            <a href="#">Сотрудничество</a>
+          </div>
+
+          <div class="right3">
+            <h3>категории</h3>
+            <a href="#">Женская одежда</a>
+            <a href="#">Мужская одежда</a>
+            <a href="#">Детская одежда</a>
+            <a href="#">Обувь</a>
+            <a href="#">Сумки</a>
+            <a href="#">Аксесуары</a>
+          </div>
+        </div>
+      </div>
+      <div class="mobil-version">
+        <div>
+          <div class="high_fidelity">
+            High fidelity wireframes include more real content, specific typography choices, and information on image.
+          </div>
+          <div>
+            <div class="footerr">
+              <div class="footer-nav">
+                <p>
+                  Catalog
+                </p>
+                <p>
+                  Catalog
+                </p>
+                <p>
+                  Pricing
+                </p>
+                <p>
+                  Features
+                </p>
+              </div>
+              <div class="footer-nav">
+                <p>
+                  About
+                </p>
+                <p>
+                  Blog
+                </p>
+                <p>
+                  Contacts
+                </p>
+              </div>
+            </div>
+            <div class="img-and-text">
+              <img src="./images/location.svg" alt="Lorem">
+              <p>
+                Los Angeles,<br>
+                359 Hidden Valley Road
+              </p>
+            </div>
+            <div class="img-and-text">
+              <img src="./images/maseg-logo.svg" alt="Lorem">
+              <p>
+                Hellohero@gmail.com
+              </p>
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

@@ -1,1 +1,262 @@
 @import "main.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,500&family=Open+Sans:ital,wght@0,400;1,700&family=Poppins:wght@700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+:root {
+    --main-color: #ffc000;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  main{
+    background-color: #E5E5E5;
+  }
+  
+
+  .center_h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+  }
+
+  .duble{
+    display: flex;
+    gap:100px;
+  }
+
+  .boxt_yelow{
+    margin-top: 35px;
+    background-color: #ffc000;
+    display: inline-block;
+    width: 400px;
+    height: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 17px;
+    display: flex;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0D0D0D;
+    display: flex;
+  }
+
+  .first_li{
+    margin-top: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+   
+  }
+
+  .li-second{
+    margin-top: 20px;
+  }
+
+  .first_li>p{
+    margin-left: 10px;
+  }
+
+  .information_users{
+    margin-top: 20px;
+  }
+
+  .people-location{
+    min-width: 400px;
+    height: 35px;
+    background-color: #d4cdcd;
+    border: none;
+  }
+
+  .submit{
+    width: 400px;
+    height: 32px;
+    margin-top: 10px;
+    background-color: #ffc000;
+
+  }
+
+  .teg2{
+    margin-left: 50px;
+  }
+
+
+  .pay{
+    vertical-align: middle;
+  }
+
+  .buyutma{
+    display: flex;
+  }
+
+  .Вашзаказ{
+    margin-top: 70px;
+  }
+  
+  .the-human{
+    display: flex 20%;
+  }
+  
+  .you_order{
+    padding-left:30px;
+    padding-top: 70px;
+    display: flex 80%;
+  }
+
+  .lorem-tex{
+    max-width: 800px;
+    min-width: 400px;
+  }
+
+  .lorem-tex>p{
+    margin: 20px;
+    display: inline-block;
+  }
+
+  .summ{
+   display: flex;
+   margin-top: 300px;
+   
+  }
+
+  .cont{
+    display: inline-block;
+    margin-left: 200px;
+  }
+
+  .two{
+    margin-top: 60px;
+  }
+
+  .shopping{
+    padding-top: 40px;
+  }
+
+  .button_img{
+    margin-top: 20px;
+    margin: 20px 10px;
+    width: 240px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    padding-left: 10px;    
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .next_section-img{
+    width: 180px;
+    margin: 20px 15px  ;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .next_only_text{
+    background-color: #ffc000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0D0D0D;
+  }
+
+  .mobil-version{
+    display: none;
+  }
+
+
+
+
+  @media (max-width: 999px){
+   
+  }
+
+
+  @media (max-width: 550px){
+    
+    .footer{
+      display: none;
+    }
+
+
+
+   .mobil-version{
+    display: block;
+   }
+   .high_fidelity {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+
+  .footerr {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .footer-nav > p {
+    padding: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+
+  .img-and-text {
+    display: flex;
+  }
+
+  .img-and-text > p {
+    padding-left: 10px;
+    vertical-align: middle;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    
+  }
+  }
+
