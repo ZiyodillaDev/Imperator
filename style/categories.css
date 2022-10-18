@@ -141,4 +141,8 @@
     color: #000000;
     margin-bottom: 17px;
   }
+
+  footer {
+    display: none;
+  }
 }
