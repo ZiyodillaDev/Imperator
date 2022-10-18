@@ -257,6 +257,11 @@
     text-decoration: none;
   }
 
+  iframe {
+    width: 400px;
+    
+  }
+
   .secon_side {
     margin-bottom: 16px;
   }
