@@ -182,3 +182,15 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+
+@media only screen and (max-width: 600px) {
+ 
+  .about_sides {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about_sides > img {
+    max-width: 319px;
+  }
+}
