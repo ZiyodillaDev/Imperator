@@ -1,1 +1,202 @@
 @import "main.css";
+
+.hat_top {
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+  gap: 30px;
+}
+
+.hat_top_right > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hat_top_right > div > h2 {
+  max-width: 512px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #040921;
+  margin-bottom: 71px;
+}
+
+.hat_top_right > p {
+  max-width: 754px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.margin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.hat_bottom {
+    max-width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.hat_bottom > a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0d0d0d;
+  background: #ffc000;
+  padding: 13px 50px;
+}
+
+.goods_section {
+    margin-bottom: 50px;
+}
+
+.goods h4 {
+    padding-top: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #000000;
+}
+
+.goods_boxes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+.goodsbox {
+    width: 264px;
+    height: 522px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 98px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.goodsbox .firstp {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #000000;
+    max-width: 225px;
+    margin-top: 8px;
+    padding: 0 15px;
+}
+
+.secondp {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #000000;
+    max-width: 240px;
+    margin-top: 8px;
+    padding: 0 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding: 0 15px;
+}
+
+.goods_button {
+    padding-top: 8px;
+    background: #FFC000;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    margin: 0 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .hat_top > img {
+        max-width: 85px;
+    }
+    
+    .hat_top_right > div > h2 {
+        max-width: 210px;
+        font-size: 14px;
+        margin-bottom: -0px;
+    }
+    .x {
+        display: none;
+    }
+
+    .hat_top_right > p {
+        display: none;
+    }
+
+    .hat_top_right > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .hat_top_right > div > img {
+        max-width: 127px;
+        margin-top: -20px;
+        margin-left: 100px;
+    }
+
+    .hat_bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+
+    }
+
+    .hat_bottom > p {
+        margin-bottom: 20px;
+    }
+
+    .dis {
+        display: block;
+    }
+
+    .goods_boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
