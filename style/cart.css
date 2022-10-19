@@ -176,14 +176,13 @@
     .hat_top_right > div > img {
         max-width: 127px;
         margin-top: -20px;
-        margin-left: 100px;
+        left: auto;
     }
 
     .hat_bottom {
         display: flex;
         flex-direction: column;
         margin-top: -20px;
-
     }
 
     .hat_bottom > p {
@@ -197,6 +196,33 @@
     .goods_boxes {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .goods_boxes > div {
+        max-width: 152px;
+        max-height: 330px;
+    }
+
+    .goods_boxes > div > img {
+        max-width: 152px;
+        padding-bottom: -50px;
+    }
+
+    .secondp {
+        display: none;
+    }
+
+    .goods_button {
+        display: none;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price > img {
+        max-height: 20px;
     }
 }
 
