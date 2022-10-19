@@ -85,6 +85,7 @@
 .goods_boxes {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 24px;
 }
 
@@ -147,6 +148,10 @@
     margin: 0 12px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.categorybottom {
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -223,6 +228,14 @@
 
     .price > img {
         max-height: 20px;
+    }
+
+    .categorybottom {
+        display: block;
+    }
+
+    footer {
+        display: none;
     }
 }
 
