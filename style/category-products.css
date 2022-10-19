@@ -236,6 +236,7 @@ form button{
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #000000;
   margin-top: 8px;
+  width: 245px;
 }
 
 .stars{
@@ -359,17 +360,112 @@ footer * {
 }
 
 footer a:hover{
-font-weight: 700;
+  font-weight: 700;
+}
+
+
+.footer-3{
+  display: none;
+}
+
+
+
+.footer-2{
+  padding-top: 36px;
+  display: none;
+}
+
+.f2-a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 34px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+  display: block;
+}
+
+.f2-place{
+  display: flex;
+  margin-top: 32px;
+}
+
+.f2-place .fleft{
+  flex: 50%;
+}
+
+.f2-place .fright{
+  flex: 50%;
+}
+
+.footer-2 p:first-child{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+}
+
+footer hr{
+  margin-top: 40px;
+}
+
+footer .loc{
+  margin-top: 32px;
+}
+
+footer .location{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+footer .loc2{
+  margin-top: 20px;
+  padding-bottom: 32px;
+}
+
+footer .mes{
+  margin-left: 15px;
 }
 
 /* first-desktop */
 
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 950px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .container {
     max-width: 550px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
+
+  .clothes-t-b{
+    margin-left: 0px;
+  }
+
    .header{
     display: flex;
     gap: 16px;
@@ -414,20 +510,10 @@ font-weight: 700;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .container {
-    max-width: 950px;
-    padding-left: 15px;
-    padding-right: 15px;
+@media (max-width:840px) {
+  .form{
+    display: none;
   }
-
-  .button {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-
-
 }
 
 @media screen and (max-width:824px){
@@ -437,15 +523,57 @@ font-weight: 700;
   }
 }
 
-
-@media (max-width:840px) {
-  .form{
-    display: none;
+@media screen and (max-width:740px) {
+  .clothes-t-b .box{
+    margin-left: 0px;
   }
 }
 
+@media screen and (max-width:580px) {
+  .topheader,.left a,.clothes-links{
+    display: none;
+  }
 
-@media (max-width:740px) {
+  .clothes-t-b .box img:first-child{
+    height: 176px;
+    width: 202px;
+  }
+  .box:nth-child(even){
+    margin-left: 7px;
+  }
+
+  .clothes-t-b .box .lorem{
+    width: 130px;
+    font-size: 10px;
+  }
+
+  .clothes-t-b .box .price{
+    display: block;
+    margin-left: 0;
+  }
+
+  .stars{
+    width: 85px;
+  }
+}
+
+@media screen and (max-width:465px) {
+  .clothes-t-b .box img:first-child{
+    height: 176px;
+    width: 152px;
+  }
+
+  .footer{
+    display: none;
+  }
+
+  .footer-2,.footer-3{
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width:375px) {
   
 }
 
