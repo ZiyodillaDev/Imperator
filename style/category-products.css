@@ -433,6 +433,7 @@ footer .location{
 footer .loc2{
   margin-top: 20px;
   padding-bottom: 32px;
+  display: none;
 }
 
 footer .mes{
@@ -554,6 +555,10 @@ footer .mes{
 
   .stars{
     width: 85px;
+  }
+
+  .footer-2 {
+    display: block;
   }
 }
 
