@@ -83,11 +83,14 @@
   gap: 45px;
 }
 
+.app{
+  background: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
+}
+
 .app > div {
   margin-top: 240px;
   display: flex;
   justify-content: space-between;
-  background: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
 }
 
 .app > div > img {

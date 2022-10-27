@@ -2,7 +2,7 @@
 
 main {
     background-color: #E5E5E5;
-    ;
+
 }
 
 /* HERO SECTION */
@@ -205,6 +205,9 @@ main {
 
 /* CATEGORIES SECTION */
 
+.categories{
+    width: 100%;
+}
 .categories h4 {
     padding-top: 64px;
     font-style: normal;
@@ -214,15 +217,14 @@ main {
     text-align: center;
     letter-spacing: 0.25px;
     font-feature-settings: 'pnum'on, 'lnum'on;
-}
-
-.hiden {
-    transition: width 10s linear 1s;
+    transition: height 10s ;
 }
 
 .hiden {
     display: none;
     padding-bottom: 80px;
+    position: absolute;
+
 }
 
 .categ a {
@@ -242,6 +244,7 @@ main {
 
 .categorybox {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 38px;
     gap: 30px;
     padding-bottom: 245px;
@@ -353,7 +356,9 @@ main {
 }
 
 .payment_button {
+    position: absolute;
     margin-left: 32px;
+    margin-top: 40px;
     padding-top: 8px;
     background: #FFC000;
     border-radius: 6px;
@@ -367,9 +372,7 @@ main {
     letter-spacing: 0.75px;
     text-transform: uppercase;
     font-feature-settings: 'pnum'on, 'lnum'on;
-    margin: 0 12px;
-    margin-top: 24px;
-    cursor: pointer;
+    color: black;
 }
 
 /* SALES SECTION */
@@ -399,6 +402,11 @@ main {
 .categorybox2 p {
     display: none;
 
+}
+
+.stores{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* RESPONSIVE */
@@ -465,6 +473,14 @@ main {
 @media screen and (max-width: 600px) {
     .hero_center {
         display: none;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .hero_right img{
+        width: 100%;
     }
 
     .hero {
@@ -584,16 +600,17 @@ main {
         top: 0;
     }
 
-   .new1{
-    content: url(../images/new1.png)
-   }
-   .new2{
-    content: url(../images/new2.png);
-   }
+    .new1 {
+        content: url(../images/new1.png)
+    }
 
-   .payment {
-    display: flex;
-    flex-direction: column;
-}
+    .new2 {
+        content: url(../images/new2.png);
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
